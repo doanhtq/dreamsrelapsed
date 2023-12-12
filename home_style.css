@@ -1,0 +1,124 @@
+/* Font chữ và màu nền cho trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content luôn ở giữa */
+.content {
+    margin: 25px auto;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    -webkit-box-shadow: 0 0 20px rgba(50, 50, 50, .17);
+    -moz-box-shadow: 0 0 20px rgba(50, 50, 50, .17);
+    box-shadow: 0 0 20px rgba(50, 50, 50, .17);
+}
+
+/* Header */
+.header {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+/* Header top (logo) */
+.header_top {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+    border-bottom-color: rgb(66, 63, 57);
+}
+
+.header_top_link {
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_top_title {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Header bottom (navigation) */
+.header_bottom {
+    background-color: #2A2A2A;
+}
+
+.header_bottom_navigation {
+    color: #fff;
+    text-decoration: none;
+    overflow: auto;
+}
+
+.header_bottom_menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_bottom_menu_item {
+    padding: 20px;
+    border-right: 1px solid #ebebeb;
+}
+
+.header_bottom_menu_item a {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    text-transform: none;
+    padding-inline-start: 0;
+    display: none;
+    position: absolute;
+    background-color: #2A2A2A;
+    margin: 20px;
+    margin-left: -20px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.header_bottom_menu_item:hover .dropdown-content {
+    display: block;
+}
+
+.header_bottom_menu_item:hover {
+    background-color: #E64946;
+}
+
+
+.dropdown-content li {
+    padding: 8px 12px;
+    list-style-type: none;
+}
+
+.dropdown-content li:hover {
+    background-color: #E64946;
+}
+
+.subject {
+    font-weight: bold;
+}
+
+.breadcrumb {
+    margin: 40px;
+}
+.body {
+    margin: 40px;
+}
+
+.footer {
+    margin: 40px;
+    padding-bottom: 40px;
+}
+
+
