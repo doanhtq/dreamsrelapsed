@@ -82,6 +82,8 @@ body {
 .header_bottom_menu_item a {
     text-decoration: none;
     color: #fff;
+    display: block;
+
 }
 
 .dropdown-content {
@@ -109,6 +111,9 @@ body {
 .dropdown-content li {
     padding: 8px 12px;
     list-style-type: none;
+    cursor: pointer;
+    display: block;
+
 }
 
 .dropdown-content li:hover {
@@ -166,5 +171,10 @@ body {
 
 .grid-item h2 {
     margin-top: 0;
+}
+
+.title {
+    padding-top: 40px;
+    text-align: center;
 }
 
